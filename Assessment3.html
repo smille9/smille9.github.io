@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assessment 3: Multimedia and Embedding</title>
+</head>
+
+<!-- Need some CSS for color?!/ link rel stylesheet...-->
+<!--Link back to main page!-->
+<body>
+
+    <header>
+        <h1>HTML Multimedia and Embedding</h1>
+    </header>
+
+    <h2>Link To Main Page</h2>
+    <a href="index.html">Main Page</a>
+
+    <h2>Embedding Images</h2>
+    <p>
+        Below is a 300 width embedded image of mars.
+    </p>
+    <p>
+        <img src="Mars 140.jpg"
+            alt="An Image of the planet mars."
+            width="300">
+    </p>
+
+    <h2>Embedding Audio</h2>
+    <p>Below is an embedded mp3 file, the same one from the mozilla developer <code>&lt;audio&gt;</code> element tutorial .</p>
+    <audio controls>
+        <source src="viper.mp3" type="audio/mp3" />
+        <source src="viper.ogg" type="audio/ogg" />
+            <p>
+              Your browser doesn't support this audio file. Here is a
+              <a href="viper.mp3">link to the audio</a> instead.
+            </p>
+    </audio>
+
+
+    <h2>Embedding Videos</h2>
+    <p>Below is an Embedded Video File</p>
+    <video src="file_example_WEBM_480_900KB.webm" controls> <!--Recall that an attribute is true if it is written. If we left controls out it would be false.-->
+        <p>
+            Your browser doesn't support HTML video. Here is a link to it instead: <a href="file_example_WEBM_480_900KB.webm">The Video</a>
+        </p>
+    </video>
+
+
+</body>
+</html>

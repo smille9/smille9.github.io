@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assessment 4: Tables</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML Tables</h1>
+    </header>
+
+    <h2>Link To Main Page</h2>
+    <a href="index.html">Main Page</a>
+
+
+    <h3>
+        Tables
+    </h3>
+
+    <p> Below is a Table  demonstrating different table layout settings such as:
+        <ol>
+            <li>The <code>&lt;table&gt;</code> element for making tables</li>
+            <li>Table Headers</li>
+            <li>Table Rows</li>
+            <li>The colspan and rowspan attributes</li>
+        </ol>
+    </p>
+
+
+    <table>
+
+        <tr>
+            <td>&nbsp;</td>
+            <th>1 and 6</th>
+            <th>2 and 7</th>
+            <th>3 and 8</th>
+            <th>4 and 9</th>
+            <th colspan="5"> Spanning Test</th>
+        </tr>
+
+        <tr>
+            <th>First 4 normal cells and spanning</th>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+            <td>Extra Cell 1</td>
+            <td>Extra Cell 2</td>
+            <td>Extra Cell 3</td>
+            <td rowspan=2>Row Spanning Cell</td>
+        </tr>
+        <tr>
+            <th>Next 4 normal cells and soanning</th>
+            <td>Cell 6</td>
+            <td>Cell 7</td>
+            <td>Cell 8</td>
+            <td>Cell 9</td>
+            <td colspan="3"> Column spanning Cell</td>
+        </tr>
+    </table>
+</body>
+</html>
